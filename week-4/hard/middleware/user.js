@@ -1,5 +1,15 @@
+const jwt = require('jsonwebtoken');
+
 function userMiddleware(req, res, next) {
-    // Implement user auth logic
+    const token = req.headers['authorization']?.split(' ')[1];
+    if (!token) return res.status(403).send("No token provided.");
+
+    jwt.verify(token, process.env.JWT_SECRET, (err, decoded) => {
+        if (err) return res.status(500).send("Failed to authenticate token.");
+        
+        req.userId = decoded.id; // Store user ID in the request for later use
+        next();
+    });
 }
 
 module.exports = userMiddleware;
