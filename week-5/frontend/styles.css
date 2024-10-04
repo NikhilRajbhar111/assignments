@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: antiquewhite;
+}
+
+.container {
+    background-color: red; /* This may need to be adjusted or removed depending on your design */
+    padding: 20px; /* Add padding for better spacing */
+    border-radius: 10px; /* Optional: Add rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+}
+
+h1 {
+    color: #333;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input {
+    margin-right: 10px;
+}
+
+#todo-section {
+    display: none;
+}
+
+li{
+    list-style: none;
+    
+}
