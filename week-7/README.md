@@ -1,4 +1,4 @@
-# Coursify
+<!-- # Coursify
 **Your task is to create a course-selling website where admin can publish/create courses and user can purchase courses.**
 
 # Frontend
@@ -247,4 +247,6 @@
     ... 
   ] 
 }
-```
+``` -->
+will do the week 8 project form here which will cover the week 7 automatically :-
+    https://github.com/NikhilRajbhar111/week-8-course-selling-project.git
