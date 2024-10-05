@@ -1,4 +1,4 @@
-# TODO
+<!-- # TODO
 
 Create a simple Todo application that store todos in a in-memory storage.
 
@@ -15,4 +15,7 @@ npm install
 ![Image](https://utfs.io/f/3e65e2d3-a5b1-4ce8-aa07-611a54d6363a-2t1eni.png)
 
 #### please don't copy, create a great UI.
+ -->
 
+
+Check the week 5 assignment

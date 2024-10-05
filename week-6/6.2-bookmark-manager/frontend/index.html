@@ -1,24 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bookmark Manager</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookmarks</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <h1>Bookmark Manager</h1>
-
-    <div class="input-container">
-      <input type="text" id="bookmark-url" placeholder="Enter bookmark URL" />
-      <input type="text" id="bookmark-category" placeholder="Enter category" />
-      <button id="add-bookmark-btn">Add Bookmark</button>
+    <div class="container">
+        <div id="newBookmark">
+            <input type="text" placeholder="Enter title" id="title">
+            <input type="text" placeholder="Enter URL" id="url">
+            <button id="addBookmark">Add Bookmark</button>
+        </div>
+        
+        <div id="search">
+            <input type="text" placeholder="Search bookmarks" id="searchInput">
+        </div>
+    
+        <h2>Bookmarks</h2>
+        <ul id="bookmarks"></ul>
+    
+        <hr>
+        
+        <h2>Favorites</h2>
+        <ul id="favorites"></ul>
     </div>
+    
 
-    <ul id="bookmark-list"></ul>
-  </div>
-
-  <script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
